@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-20T03:53:04.3096457+08:00",
+  "batchCount": 9,
+  "articleCount": 896.0,
+  "candidateCount": 1110.0,
+  "exactReplaceCount": 674.0,
+  "needsRewriteCount": 294.0,
+  "deleteAsParaphraseCount": 16.0,
+  "passBatchCount": 8,
+  "incompleteBatches": [
+    8
+  ],
+  "status": "REVIEW"
+}

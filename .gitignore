@@ -1,0 +1,48 @@
+# Third-party full-text corpus and extraction snapshots
+/sooon-q9adg-articles.jsonl
+/sooon-q9adg-sources.jsonl
+/sooon-q9adg-summary.json
+
+# Full close-reading and article-level derived text layers
+/research/close-reading/
+/research/data/*.jsonl
+/research/data/core_term_concordance.csv
+/research/data/*_candidates.csv
+/research/data/*_screening.csv
+/research/data/claim_review_queue.csv
+/research/data/claim_support_audit_500.csv
+/research/data/claim_*
+/research/data/quote_*.csv
+/research/data/quote_*.stats.json
+/research/data/source_quote_validation_all.csv
+/research/data/source_quote_validation_failures.csv
+/research/data/theme_examples.json
+
+# Review packets that embed source bodies or aggregated quotation fields
+/research/review/claim-packets/
+/research/review/**/*.csv
+/research/review/**/*.jsonl
+/research/review/**/*.json
+/research/review/strict-quote-batches*/
+/research/review/strict-quote-residual-batches*/
+/research/review/strict-quote-review-batches/
+/research/review/strict-quote-*-exact-replacements.csv
+/research/review/strict-quote-*-decisions.csv
+/research/review/strict-quote-*-approved-exact-replacements.csv
+/research/review/claim-review-*.csv
+
+# Audit scripts that embed reviewed third-party quotation strings
+/research/scripts/audit_strict_quote_*.ps1
+/research/scripts/reaudit_strict_quote_*.ps1
+/research/scripts/build_strict_quote_review_batch_*.ps1
+/research/scripts/build_strict_quote_review_batch_*_part*.ps1
+
+# Local/editor/build noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.log
+.idea/
+.vscode/

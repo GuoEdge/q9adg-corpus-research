@@ -1,0 +1,25 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 692,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "screenedEvidenceRows": 47,
+  "directReviewSupplements": 1,
+  "supplementOrdinals": [
+    105
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "亲子抚养与基本照护": 6,
+    "父母权柄与成年退出": 6,
+    "赡养养老与代际支持": 6,
+    "扩展亲属与人情网络": 6,
+    "家庭资源与财产安排": 6,
+    "危机照料与功能替代": 6,
+    "家务、日常协作与成家边界": 6,
+    "家族传承、记忆与共同体": 6
+  },
+  "status": "PASS"
+}

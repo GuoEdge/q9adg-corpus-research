@@ -1,0 +1,10 @@
+{
+  "wideCandidates": 1768,
+  "screenedCandidates": 370,
+  "bodyDistinctTermThreshold": 5,
+  "directTitleQuestionCandidates": 295,
+  "bodyMultiTermCandidates": 75,
+  "uniqueScreenedIds": 370,
+  "missingCoreFields": 0,
+  "status": "PASS"
+}

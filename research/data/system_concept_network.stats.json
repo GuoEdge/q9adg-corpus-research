@@ -1,0 +1,138 @@
+{
+  "evidencePath": "D:\\岐伯论\\research\\data\\author_view_evidence_clean.jsonl",
+  "inputFields": [
+    "thesis",
+    "reasoning",
+    "authorActionAndEthicalJudgments",
+    "sourceQuotes",
+    "faithfulSummary"
+  ],
+  "excludedFields": [
+    "questionContext",
+    "conceptsInArticle",
+    "rhetoric"
+  ],
+  "inputFieldPolicy": "Only clean author-attributed fields are used; questioner and researcher fields are excluded.",
+  "articleCount": 4050,
+  "conceptCount": 23,
+  "concepts": [
+    {
+      "concept": "事实与证据",
+      "articleCount": 1463,
+      "articleRate": 0.361235
+    },
+    {
+      "concept": "定义与达意",
+      "articleCount": 1766,
+      "articleRate": 0.436049
+    },
+    {
+      "concept": "能力与学习",
+      "articleCount": 2595,
+      "articleRate": 0.640741
+    },
+    {
+      "concept": "选择与自由",
+      "articleCount": 2332,
+      "articleRate": 0.575802
+    },
+    {
+      "concept": "责任与后果",
+      "articleCount": 2571,
+      "articleRate": 0.634815
+    },
+    {
+      "concept": "成本与总账",
+      "articleCount": 2508,
+      "articleRate": 0.619259
+    },
+    {
+      "concept": "信用与信任",
+      "articleCount": 1131,
+      "articleRate": 0.279259
+    },
+    {
+      "concept": "爱与回应",
+      "articleCount": 1299,
+      "articleRate": 0.320741
+    },
+    {
+      "concept": "净输出与不掠夺",
+      "articleCount": 339,
+      "articleRate": 0.083704
+    },
+    {
+      "concept": "边界与许可",
+      "articleCount": 1267,
+      "articleRate": 0.31284
+    },
+    {
+      "concept": "照料与家庭",
+      "articleCount": 1054,
+      "articleRate": 0.260247
+    },
+    {
+      "concept": "劳动与组织",
+      "articleCount": 1294,
+      "articleRate": 0.319506
+    },
+    {
+      "concept": "财富与市场",
+      "articleCount": 1034,
+      "articleRate": 0.255309
+    },
+    {
+      "concept": "法律与秩序",
+      "articleCount": 1271,
+      "articleRate": 0.313827
+    },
+    {
+      "concept": "权力与异议",
+      "articleCount": 1210,
+      "articleRate": 0.298765
+    },
+    {
+      "concept": "技术与工程",
+      "articleCount": 1108,
+      "articleRate": 0.27358
+    },
+    {
+      "concept": "文明与历史",
+      "articleCount": 1081,
+      "articleRate": 0.266914
+    },
+    {
+      "concept": "民族与身份",
+      "articleCount": 221,
+      "articleRate": 0.054568
+    },
+    {
+      "concept": "生态与自然",
+      "articleCount": 350,
+      "articleRate": 0.08642
+    },
+    {
+      "concept": "人工智能与机器",
+      "articleCount": 118,
+      "articleRate": 0.029136
+    },
+    {
+      "concept": "心理与主体",
+      "articleCount": 1640,
+      "articleRate": 0.404938
+    },
+    {
+      "concept": "性别与身体",
+      "articleCount": 511,
+      "articleRate": 0.126173
+    },
+    {
+      "concept": "宗教与自然法",
+      "articleCount": 318,
+      "articleRate": 0.078519
+    }
+  ],
+  "periodCount": 3,
+  "pairCount": 253,
+  "status": "PASS"
+}

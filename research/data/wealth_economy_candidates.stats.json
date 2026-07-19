@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 3120,
+  "termCount": 114,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "财富定义与资源可及性": 1090,
+    "贫富教育与家族传承": 423,
+    "劳动职业与事业": 1519,
+    "成本价格与交换": 1208,
+    "企业资本与利润": 1105,
+    "市场分配与公共财富": 1189,
+    "投资风险与信用": 1093,
+    "慈善救济与赠与": 405
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 3120,
+  "status": "PASS"
+}

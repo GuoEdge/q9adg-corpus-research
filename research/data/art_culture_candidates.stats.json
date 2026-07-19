@@ -1,0 +1,18 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 1747,
+  "termCount": 47,
+  "categoryCount": 6,
+  "categoryArticleCounts": {
+    "审美判断与风格": 297,
+    "文学叙事与戏剧": 187,
+    "视觉艺术与设计": 453,
+    "音乐表演与影像": 614,
+    "艺术创作与生产": 315,
+    "文化传统与遗产": 818
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 1747,
+  "status": "PASS"
+}

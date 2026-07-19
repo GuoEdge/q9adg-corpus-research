@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 3007,
+  "termCount": 98,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "可实现性与工程路线": 1020,
+    "工具、材料与基础设施": 782,
+    "产业组织、所有权与商业化": 838,
+    "技术、劳动与失业": 672,
+    "AI、机器与智能边界": 368,
+    "历史经验、记录与知识继承": 603,
+    "文明保存、能源与环境": 1188,
+    "技术治理、风险与公共目标": 1933
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 3007,
+  "status": "PASS"
+}

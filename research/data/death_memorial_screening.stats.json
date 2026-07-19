@@ -1,0 +1,9 @@
+{
+  "wideCandidates": 872,
+  "screenedCandidates": 159,
+  "titleOrQuestionDirectNarrowHits": 59,
+  "candidatesWithTwoNarrowTerms": 128,
+  "uniqueScreenedIds": 159,
+  "missingCoreFields": 0,
+  "status": "PASS"
+}

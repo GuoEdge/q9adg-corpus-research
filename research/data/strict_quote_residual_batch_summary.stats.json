@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-20T04:50:14.8889727+08:00",
+  "manifestBatchCount": 11,
+  "approvedBatchCount": 11,
+  "totalArticleAssignments": 1027,
+  "totalCandidateCount": 1534,
+  "totalDecisionCount": 1534,
+  "totalExactReplaceCount": 1485,
+  "totalNeedsRewriteCount": 9,
+  "totalDeleteAsParaphraseCount": 40,
+  "errorCount": 0,
+  "errors": [],
+  "status": "PASS"
+}

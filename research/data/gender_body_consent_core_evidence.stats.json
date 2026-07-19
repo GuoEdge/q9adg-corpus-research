@@ -1,0 +1,23 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 370,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "screenedEvidenceRows": 48,
+  "directReviewSupplements": 0,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "性别概念、角色与权力": 6,
+    "身体、外貌与身体自主": 6,
+    "欲望、性行为与性取向": 6,
+    "同意、边界与性暴力": 6,
+    "性知识、教育与健康": 6,
+    "生育、妊娠与生殖选择": 6,
+    "性别化照料与家庭劳动": 6,
+    "尊严、保护与文化信号": 6
+  },
+  "status": "PASS"
+}

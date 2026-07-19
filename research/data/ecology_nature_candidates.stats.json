@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 2358,
+  "termCount": 109,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "自然观、规律与人的位置": 1762,
+    "生态系统、生物多样性与保护": 363,
+    "气候、灾害与文明韧性": 111,
+    "能源、矿产与资源约束": 695,
+    "农业、农村、土地与粮食": 213,
+    "动物、植物与跨物种关系": 465,
+    "污染、废物与物质循环": 187,
+    "生态治理、公共责任与文明未来": 193
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 2358,
+  "status": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 276,
+  "termCount": 78,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "智能、意识与人类边界": 190,
+    "模型、知识、提问与可信性": 166,
+    "算力、数据、架构与产业生态": 112,
+    "具身、机器人与自动化": 136,
+    "劳动、职业与教育重组": 146,
+    "创作、审美、版权与身份": 70,
+    "责任、隐私、风险与治理": 155,
+    "强智能、文明与未来秩序": 192
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 276,
+  "status": "PASS"
+}

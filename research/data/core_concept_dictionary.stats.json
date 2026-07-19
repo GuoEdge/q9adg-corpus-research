@@ -1,0 +1,11 @@
+{
+  "corpusArticleCount": 4050,
+  "dictionaryRowCount": 30,
+  "uniqueTermCount": 30,
+  "duplicateTerms": [],
+  "missingFields": [],
+  "missingIds": [],
+  "titleMismatches": [],
+  "quoteMismatches": [],
+  "status": "PASS"
+}

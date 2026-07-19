@@ -1,0 +1,21 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 1065,
+  "evidenceRows": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "comparison": "StringComparison.Ordinal",
+  "sectionCounts": {
+    "财富定义与资源可及性": 6,
+    "贫富教育与家族传承": 6,
+    "劳动、职业与事业": 6,
+    "成本、价格与交换": 6,
+    "企业、资本与利润": 6,
+    "市场、分配与公共财富": 6,
+    "投资、风险与信用": 6,
+    "慈善、救济与赠与": 6
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 974,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "screenedEvidenceRows": 47,
+  "directReviewSupplements": 1,
+  "supplementOrdinals": [
+    80
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "可实现性与工程路线": 6,
+    "工具、材料与基础设施": 6,
+    "产业组织、所有权与商业化": 6,
+    "技术、劳动与失业": 6,
+    "AI、机器与智能边界": 6,
+    "历史经验、记录与知识继承": 6,
+    "文明保存、能源与环境": 6,
+    "技术治理、风险与公共目标": 6
+  },
+  "status": "PASS"
+}

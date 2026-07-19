@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 2947,
+  "termCount": 134,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "爱欲、依恋与爱的定义": 1632,
+    "相识、择偶与关系形成": 1005,
+    "承诺、信任与婚姻联盟": 760,
+    "婚礼、金钱与财产安排": 216,
+    "日常照料、劳动与互惠": 1034,
+    "冲突、沟通与关系修复": 694,
+    "自由、同意与亲密边界": 1218,
+    "分手、离婚与独身路径": 385
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 2947,
+  "status": "PASS"
+}

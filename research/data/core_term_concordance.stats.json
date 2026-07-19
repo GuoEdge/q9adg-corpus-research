@@ -1,0 +1,12 @@
+{
+  "corpusPath": "D:\\岐伯论\\sooon-q9adg-articles.jsonl",
+  "articleCount": 4050,
+  "termCount": 34,
+  "articleTermRowCount": 13622,
+  "zeroHitTerms": [],
+  "concordancePath": "D:\\岐伯论\\research\\data\\core_term_concordance.csv",
+  "yearStatsPath": "D:\\岐伯论\\research\\data\\core_term_year_counts.csv",
+  "periodPlatformStatsPath": "D:\\岐伯论\\research\\data\\core_term_period_platform_counts.csv",
+  "periodPlatformGroupCount": 6,
+  "status": "PASS"
+}

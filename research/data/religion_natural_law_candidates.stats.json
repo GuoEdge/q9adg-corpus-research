@@ -1,0 +1,19 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 2470,
+  "uniqueCandidateIds": 2470,
+  "layerCount": 8,
+  "layerArticleCounts": {
+    "宗教、信仰与经典": 571,
+    "上帝、神与神性": 346,
+    "神意、天意与世界安排": 1122,
+    "自然法、天道与客观秩序": 519,
+    "罪、审判、惩罚与救赎": 794,
+    "原谅、宽恕与爱的命令": 287,
+    "祈祷、修行与行动实践": 218,
+    "天命、苦难、死亡与终极意义": 885
+  },
+  "missingEvidenceRows": 0,
+  "status": "PASS"
+}

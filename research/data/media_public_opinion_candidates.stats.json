@@ -1,0 +1,17 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 939,
+  "termCount": 62,
+  "categoryCount": 5,
+  "categoryArticleCounts": {
+    "新闻事实与采访报道": 222,
+    "舆论民意与群体判断": 238,
+    "宣传叙事与公共沟通": 345,
+    "谣言信源与事实核验": 130,
+    "自媒体平台与注意力": 326
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 939,
+  "status": "PASS"
+}

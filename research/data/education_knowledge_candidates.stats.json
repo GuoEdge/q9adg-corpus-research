@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 3726,
+  "termCount": 125,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "事实证据与知识边界": 2404,
+    "错误失败与修正": 1893,
+    "学习训练与能力形成": 2494,
+    "学校教师与课程": 1022,
+    "考试学历与选拔": 820,
+    "儿童家庭与社会化": 1293,
+    "语言表达与批评": 1906,
+    "记录研究与知识传承": 1254
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 3726,
+  "status": "PASS"
+}

@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-07-20T04:57:38.1716988+08:00",
+  "stepCount": 46,
+  "failedStepCount": 0,
+  "failedGateCount": 0,
+  "gates": [
+    {
+      "file": "author_view_evidence_clean.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "source_quote_validation.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "author_claims_clean.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "claim_support_audit_500.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "system_concept_network.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "core_evidence_registry.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "core_proposition_genealogy.stats.json",
+      "status": "PASS"
+    },
+    {
+      "file": "core_term_concordance.stats.json",
+      "status": "PASS"
+    }
+  ],
+  "results": [
+    {
+      "script": "build_clean_author_view_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 10.038
+    },
+    {
+      "script": "validate_source_quotes.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 4.344
+    },
+    {
+      "script": "build_author_claims.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.713
+    },
+    {
+      "script": "build_claim_support_audit.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 6.721
+    },
+    {
+      "script": "build_system_concept_network.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 8.447
+    },
+    {
+      "script": "build_ai_machine_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 13.799
+    },
+    {
+      "script": "build_art_culture_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 9.846
+    },
+    {
+      "script": "build_crime_justice_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 7.651
+    },
+    {
+      "script": "build_death_memorial_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 12.097
+    },
+    {
+      "script": "build_ecology_nature_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 15.96
+    },
+    {
+      "script": "build_education_knowledge_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 18.273
+    },
+    {
+      "script": "build_ethnicity_identity_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 14.938
+    },
+    {
+      "script": "build_family_kinship_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 18.986
+    },
+    {
+      "script": "build_gender_body_consent_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 24.83
+    },
+    {
+      "script": "build_intimacy_relationship_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 18.817
+    },
+    {
+      "script": "build_media_public_opinion_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 11.064
+    },
+    {
+      "script": "build_medical_care_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 7.333
+    },
+    {
+      "script": "build_psychology_subject_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 14.313
+    },
+    {
+      "script": "build_religion_natural_law_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 23.828
+    },
+    {
+      "script": "build_technology_civilization_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 14.969
+    },
+    {
+      "script": "build_war_diplomacy_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 8.38
+    },
+    {
+      "script": "build_wealth_economy_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 16.946
+    },
+    {
+      "script": "build_workplace_organization_candidates.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 17.524
+    },
+    {
+      "script": "build_ai_machine_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.751
+    },
+    {
+      "script": "build_art_culture_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.615
+    },
+    {
+      "script": "build_crime_justice_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.66
+    },
+    {
+      "script": "build_death_memorial_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.772
+    },
+    {
+      "script": "build_diachronic_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.694
+    },
+    {
+      "script": "build_ecology_nature_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.706
+    },
+    {
+      "script": "build_education_learning_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.789
+    },
+    {
+      "script": "build_epistemology_argument_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.656
+    },
+    {
+      "script": "build_ethnicity_identity_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.692
+    },
+    {
+      "script": "build_family_kinship_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.64
+    },
+    {
+      "script": "build_gender_body_consent_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.67
+    },
+    {
+      "script": "build_intimacy_relationship_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.777
+    },
+    {
+      "script": "build_media_public_opinion_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.682
+    },
+    {
+      "script": "build_medical_care_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.743
+    },
+    {
+      "script": "build_psychology_subject_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.609
+    },
+    {
+      "script": "build_religion_natural_law_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 3.394
+    },
+    {
+      "script": "build_technology_civilization_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.805
+    },
+    {
+      "script": "build_war_diplomacy_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.717
+    },
+    {
+      "script": "build_wealth_economy_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 3.332
+    },
+    {
+      "script": "build_workplace_organization_core_evidence.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 2.766
+    },
+    {
+      "script": "build_core_evidence_registry.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 1.152
+    },
+    {
+      "script": "build_core_proposition_genealogy.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 1.693
+    },
+    {
+      "script": "build_core_term_concordance.ps1",
+      "exitCode": 0,
+      "elapsedSeconds": 58.559
+    }
+  ],
+  "status": "PASS"
+}

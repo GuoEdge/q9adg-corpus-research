@@ -1,0 +1,11 @@
+{
+  "evidencePath": "D:\\岐伯论\\research\\data\\author_view_evidence_clean.jsonl",
+  "comparison": "StringComparison.Ordinal",
+  "checkedQuotes": 11978,
+  "exactQuotes": 11978,
+  "partialQuotes": 0,
+  "missingQuotes": 0,
+  "exactRate": 1.0,
+  "locatedRate": 1.0,
+  "status": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 851,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "screenedEvidenceRows": 47,
+  "directReviewSupplements": 1,
+  "supplementOrdinals": [
+    3611
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "学习本体、知识边界与错误": 6,
+    "能力、训练与实践形成": 6,
+    "家庭教育与社会化": 6,
+    "教师、批评与教育权柄": 6,
+    "学校、课堂与作业制度": 6,
+    "考试、竞争与选拔": 6,
+    "高等教育、专业与科研": 6,
+    "教育目的与多重尺度": 6
+  },
+  "status": "PASS"
+}

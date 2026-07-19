@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceRows": 30,
+  "uniqueEvidenceIds": 30,
+  "uniqueArticleIds": 30,
+  "questionLayers": 8,
+  "layerCounts": {
+    "怀疑侦查定罪": 4,
+    "证据审判复核": 4,
+    "私人指控与程序权柄": 4,
+    "报警警察律师": 4,
+    "刑罚死刑预防": 4,
+    "悔改重新授信": 4,
+    "亲属保密告解": 3,
+    "无知罪责后果": 3
+  },
+  "missingCoreFields": 0,
+  "quoteFailures": 0,
+  "status": "PASS"
+}

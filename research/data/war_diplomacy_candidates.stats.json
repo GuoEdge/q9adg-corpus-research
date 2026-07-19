@@ -1,0 +1,17 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 1057,
+  "termCount": 37,
+  "categoryCount": 5,
+  "categoryArticleCounts": {
+    "战争冲突与和平": 512,
+    "军事组织与军人": 241,
+    "武器威慑与核风险": 211,
+    "外交同盟与国际秩序": 153,
+    "战略动员与后勤": 429
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 1057,
+  "status": "PASS"
+}

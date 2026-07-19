@@ -1,0 +1,11 @@
+{
+  "wideCandidates": 3726,
+  "screenedCandidates": 851,
+  "bodyDistinctTermThreshold": 6,
+  "educationRouteCandidates": 450,
+  "epistemologyRouteCandidates": 523,
+  "overlappingRouteCandidates": 122,
+  "uniqueScreenedIds": 851,
+  "missingCoreFields": 0,
+  "status": "PASS"
+}

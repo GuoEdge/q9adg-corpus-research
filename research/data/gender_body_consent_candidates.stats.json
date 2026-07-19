@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 1768,
+  "termCount": 193,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "性别概念、角色与权力": 475,
+    "身体、外貌与身体自主": 392,
+    "欲望、性行为与性取向": 135,
+    "同意、边界与性暴力": 965,
+    "性知识、教育与健康": 37,
+    "生育、妊娠与生殖选择": 124,
+    "性别化照料与家庭劳动": 330,
+    "尊严、保护与文化信号": 117
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 1768,
+  "status": "PASS"
+}

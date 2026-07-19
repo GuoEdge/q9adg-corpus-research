@@ -1,0 +1,21 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 153,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "民族概念、共同体与边界": 6,
+    "血缘、谱系与历史形成": 6,
+    "种族差异与歧视": 6,
+    "国籍、公民与国家归属": 6,
+    "移民、华人与离散处境": 6,
+    "语言、文化与同化": 6,
+    "殖民、帝国与民族解放": 6,
+    "民族主义、排外与跨群体秩序": 6
+  },
+  "status": "PASS"
+}

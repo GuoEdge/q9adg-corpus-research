@@ -1,0 +1,29 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 89,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "screenedEvidenceRows": 44,
+  "directReviewSupplements": 4,
+  "supplementOrdinals": [
+    769,
+    3339,
+    3676,
+    3989
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "智能、意识与人类边界": 6,
+    "模型、知识、提问与可信性": 6,
+    "算力、数据、架构与产业生态": 6,
+    "具身、机器人与自动化": 6,
+    "劳动、职业与教育重组": 6,
+    "创作、审美、版权与身份": 6,
+    "责任、隐私、风险与治理": 6,
+    "强智能、文明与未来秩序": 6
+  },
+  "status": "PASS"
+}

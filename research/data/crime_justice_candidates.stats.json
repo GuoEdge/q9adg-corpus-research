@@ -1,0 +1,16 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 732,
+  "termCount": 27,
+  "categoryCount": 4,
+  "categoryArticleCounts": {
+    "犯罪与罪责": 331,
+    "刑罚与监禁": 115,
+    "证据审判与复核": 356,
+    "警察与执法": 174
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 732,
+  "status": "PASS"
+}

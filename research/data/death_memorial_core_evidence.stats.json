@@ -1,0 +1,18 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 159,
+  "evidenceRows": 36,
+  "uniqueEvidenceIds": 36,
+  "uniqueArticleIds": 36,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "死亡认识、必死信念与自由": 6,
+    "临终准备、遗嘱与抚慰": 6,
+    "丧葬、遗体与墓地技术": 6,
+    "哀悼、悼亡与继续生活": 6,
+    "祭祀、祖先与公共共同体": 6,
+    "遗愿、遗物与历史存在": 6
+  },
+  "status": "PASS"
+}

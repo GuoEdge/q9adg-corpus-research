@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "corpusCount": 4050,
+  "propositionCount": 39,
+  "representativeIdCount": 39,
+  "allReferencedIdCount": 46,
+  "quoteFailureCount": 0,
+  "quoteFailures": [],
+  "metadataFailureCount": 0,
+  "metadataFailures": [],
+  "duplicatePropositionIds": [],
+  "classificationCoverageFailureCount": 0,
+  "primaryArgumentTypeCount": 10,
+  "primaryArgumentTypeCounts": {
+    "单项扩展为系统": 4,
+    "反事实检验": 4,
+    "概念拆分": 9,
+    "角色与授权重定义": 2,
+    "类比迁移": 1,
+    "明示定义": 6,
+    "顺序反转": 6,
+    "行动接口": 2,
+    "阈值与红线": 2,
+    "账本与净值": 3
+  },
+  "allArgumentTypeCounts": {
+    "单项扩展为系统": 7,
+    "反事实检验": 13,
+    "概念拆分": 13,
+    "角色与授权重定义": 7,
+    "类比迁移": 6,
+    "明示定义": 6,
+    "顺序反转": 6,
+    "行动接口": 16,
+    "阈值与红线": 6,
+    "账本与净值": 10
+  },
+  "multiTypePropositionCount": 39,
+  "counterpointPropositionCount": 32,
+  "outputPath": "D:\\岐伯论\\research\\data\\core_proposition_genealogy.csv"
+}

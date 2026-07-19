@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 298,
+  "evidenceRows": 32,
+  "uniqueEvidenceIds": 32,
+  "uniqueArticleIds": 32,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "信源、事实与核验": 4,
+    "新闻、采访与报道": 4,
+    "谣言、纠错与认知责任": 4,
+    "舆论、公众与多数": 4,
+    "宣传、叙事与舆情权力": 4,
+    "平台算法与注意力": 4,
+    "评论区、表达权与公共器具": 4,
+    "自媒体、创作者与公共关系": 4
+  },
+  "status": "PASS"
+}

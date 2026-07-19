@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 1804,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "人格主体、自我与边界": 6,
+    "情绪、感受与价值解释": 6,
+    "焦虑、恐惧与风险管理": 6,
+    "抑郁、绝望与意义重建": 6,
+    "创伤、羞耻、愤怒与修复": 6,
+    "依赖、控制、自由与关系": 6,
+    "咨询、诊断与自我理解": 6,
+    "训练、习惯、行动与长期成长": 6
+  },
+  "status": "PASS"
+}

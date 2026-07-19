@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 3490,
+  "termCount": 129,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "劳动、事业与职业意义": 1858,
+    "求职、选择与职业发展": 1091,
+    "产出、交付与专业能力": 1617,
+    "协作、分工与功劳分配": 913,
+    "权柄、管理与责任结构": 1900,
+    "沟通、关系与组织政治": 2037,
+    "竞争、评价与制度秩序": 1537,
+    "离职、失业与未来工作": 449
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 3490,
+  "status": "PASS"
+}

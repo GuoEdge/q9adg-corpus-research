@@ -1,0 +1,60 @@
+﻿{
+  "generatedAt": "2026-07-20T04:55:54.5984393+08:00",
+  "corpusArticleCount": 4050,
+  "cleanEvidenceCount": 4050,
+  "evidenceRowCount": 24,
+  "uniqueEvidenceIdCount": 24,
+  "quoteOrdinalFailureCount": 0,
+  "missingCleanEvidenceCount": 0,
+  "periodCounts": [
+    {
+      "period": "2018-2020",
+      "count": 8
+    },
+    {
+      "period": "2021-2023",
+      "count": 8
+    },
+    {
+      "period": "2024-2026",
+      "count": 8
+    }
+  ],
+  "trajectoryCounts": [
+    {
+      "trajectory": "D01_事实定义与论辩",
+      "count": 3
+    },
+    {
+      "trajectory": "D02_能力学习与主体",
+      "count": 3
+    },
+    {
+      "trajectory": "D03_责任后果与授权",
+      "count": 3
+    },
+    {
+      "trajectory": "D04_自由边界与退出",
+      "count": 3
+    },
+    {
+      "trajectory": "D05_爱回应与不掠夺",
+      "count": 3
+    },
+    {
+      "trajectory": "D06_劳动财富与分配",
+      "count": 3
+    },
+    {
+      "trajectory": "D07_组织技术与公共能力",
+      "count": 3
+    },
+    {
+      "trajectory": "D08_自然法伦理与风险",
+      "count": 3
+    }
+  ],
+  "duplicateIds": [],
+  "validationErrors": [],
+  "status": "PASS"
+}

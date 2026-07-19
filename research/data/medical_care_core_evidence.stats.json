@@ -1,0 +1,9 @@
+{
+  "corpusArticles": 4050,
+  "evidenceRows": 25,
+  "uniqueEvidenceIds": 25,
+  "uniqueArticleIds": 25,
+  "quoteFailures": 0,
+  "failures": [],
+  "status": "PASS"
+}

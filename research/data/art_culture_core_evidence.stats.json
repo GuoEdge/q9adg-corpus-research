@@ -1,0 +1,18 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 404,
+  "evidenceRows": 36,
+  "uniqueEvidenceIds": 36,
+  "uniqueArticleIds": 36,
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "审美判断与文化风格": 6,
+    "艺术解释、批评与价值形成": 6,
+    "书写、视觉艺术与摄影": 6,
+    "电影、演员与工业协作": 6,
+    "创作、疗愈、AI与观众生态": 6,
+    "文学阅读、文化、传统与国际秩序": 6
+  },
+  "status": "PASS"
+}

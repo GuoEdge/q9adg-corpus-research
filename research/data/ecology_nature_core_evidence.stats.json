@@ -1,0 +1,27 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 158,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "screenedEvidenceRows": 46,
+  "directReviewSupplements": 2,
+  "supplementOrdinals": [
+    822,
+    2087
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "自然观、规律与人的位置": 6,
+    "生态系统、生物多样性与保护": 6,
+    "气候、灾害与文明韧性": 6,
+    "能源、矿产与资源约束": 6,
+    "农业、农村、土地与粮食": 6,
+    "动物、植物与跨物种关系": 6,
+    "污染、废物与物质循环": 6,
+    "生态治理、公共责任与文明未来": 6
+  },
+  "status": "PASS"
+}

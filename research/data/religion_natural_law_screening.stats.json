@@ -1,0 +1,18 @@
+{
+  "wideCandidates": 2470,
+  "screenedCandidates": 1042,
+  "uniqueScreenedIds": 1042,
+  "directTitleOrQuestionHits": 186,
+  "primaryLayerCounts": {
+    "祈祷、修行与行动实践": 50,
+    "上帝、神与神性": 64,
+    "神意、天意与世界安排": 279,
+    "天命、苦难、死亡与终极意义": 222,
+    "原谅、宽恕与爱的命令": 57,
+    "自然法、天道与客观秩序": 64,
+    "宗教、信仰与经典": 113,
+    "罪、审判、惩罚与救赎": 193
+  },
+  "missingCoreFields": 0,
+  "status": "PASS"
+}

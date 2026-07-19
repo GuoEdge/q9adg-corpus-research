@@ -1,0 +1,18 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 872,
+  "termCount": 77,
+  "categoryCount": 6,
+  "categoryArticleCounts": {
+    "死亡临终与生死经验": 407,
+    "丧葬仪式与遗体处置": 71,
+    "哀悼悲伤与关系修复": 48,
+    "祖先祭祀与代际共同体": 99,
+    "公共纪念与牺牲叙事": 249,
+    "遗愿遗物与身后传承": 229
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 872,
+  "status": "PASS"
+}

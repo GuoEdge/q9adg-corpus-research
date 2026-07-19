@@ -1,0 +1,29 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 775,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "screenedEvidenceRows": 47,
+  "directReviewSupplements": 1,
+  "supplementOrdinals": [
+    3
+  ],
+  "approvedUrlCorrections": 1,
+  "urlCorrectionOrdinals": [
+    89
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "爱欲、依恋与爱的定义": 6,
+    "相识、择偶与关系形成": 6,
+    "承诺、信任与婚姻联盟": 6,
+    "婚礼、金钱与财产安排": 6,
+    "日常照料、劳动与互惠": 6,
+    "冲突、沟通与关系修复": 6,
+    "自由、同意与亲密边界": 6,
+    "分手、离婚与独身路径": 6
+  },
+  "status": "PASS"
+}

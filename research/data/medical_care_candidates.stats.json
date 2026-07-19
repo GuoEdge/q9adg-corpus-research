@@ -1,0 +1,18 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 554,
+  "termCount": 28,
+  "categoryCount": 6,
+  "categoryArticleCounts": {
+    "诊疗与专业角色": 371,
+    "疾病经验与主体": 210,
+    "护理康复与回归": 21,
+    "急救与危机": 11,
+    "精神医疗接口": 4,
+    "感染与公共卫生": 76
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 554,
+  "status": "PASS"
+}

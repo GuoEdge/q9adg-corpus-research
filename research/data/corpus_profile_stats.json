@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-07-20T03:03:48.5673672+08:00",
+  "indexPath": "D:\\岐伯论\\research\\data\\corpus_index.csv",
+  "articleCount": 4050,
+  "platformMethod": "URL host mapping: zhihu => 知乎; ifdian or afdian => 爱发电.",
+  "platformDistribution": {
+    "知乎": {
+      "articleCount": 3268,
+      "sharePct": 80.69
+    },
+    "爱发电": {
+      "articleCount": 782,
+      "sharePct": 19.31
+    }
+  },
+  "yearProfiles": {
+    "2017": {
+      "articleCount": 1,
+      "activeMonthCount": 1,
+      "characterTotal": 1073.0,
+      "characterMean": 1073.0,
+      "characterMedian": 1073,
+      "characterP25": 1073,
+      "characterP75": 1073,
+      "platforms": {
+        "知乎": 1
+      }
+    },
+    "2018": {
+      "articleCount": 72,
+      "activeMonthCount": 7,
+      "characterTotal": 110850.0,
+      "characterMean": 1539.58,
+      "characterMedian": 798,
+      "characterP25": 358,
+      "characterP75": 1933,
+      "platforms": {
+        "知乎": 72
+      }
+    },
+    "2019": {
+      "articleCount": 115,
+      "activeMonthCount": 12,
+      "characterTotal": 168060.0,
+      "characterMean": 1461.39,
+      "characterMedian": 924,
+      "characterP25": 327,
+      "characterP75": 1606,
+      "platforms": {
+        "知乎": 115
+      }
+    },
+    "2020": {
+      "articleCount": 326,
+      "activeMonthCount": 12,
+      "characterTotal": 428633.0,
+      "characterMean": 1314.83,
+      "characterMedian": 852,
+      "characterP25": 404,
+      "characterP75": 1721,
+      "platforms": {
+        "知乎": 326
+      }
+    },
+    "2021": {
+      "articleCount": 625,
+      "activeMonthCount": 12,
+      "characterTotal": 774198.0,
+      "characterMean": 1238.72,
+      "characterMedian": 914,
+      "characterP25": 455,
+      "characterP75": 1592,
+      "platforms": {
+        "爱发电": 2,
+        "知乎": 623
+      }
+    },
+    "2022": {
+      "articleCount": 445,
+      "activeMonthCount": 12,
+      "characterTotal": 433204.0,
+      "characterMean": 973.49,
+      "characterMedian": 692,
+      "characterP25": 396,
+      "characterP75": 1232,
+      "platforms": {
+        "爱发电": 6,
+        "知乎": 439
+      }
+    },
+    "2023": {
+      "articleCount": 606,
+      "activeMonthCount": 12,
+      "characterTotal": 628835.0,
+      "characterMean": 1037.68,
+      "characterMedian": 824,
+      "characterP25": 486,
+      "characterP75": 1299,
+      "platforms": {
+        "爱发电": 33,
+        "知乎": 573
+      }
+    },
+    "2024": {
+      "articleCount": 802,
+      "activeMonthCount": 12,
+      "characterTotal": 883646.0,
+      "characterMean": 1101.8,
+      "characterMedian": 908,
+      "characterP25": 569,
+      "characterP75": 1468,
+      "platforms": {
+        "爱发电": 216,
+        "知乎": 586
+      }
+    },
+    "2025": {
+      "articleCount": 667,
+      "activeMonthCount": 12,
+      "characterTotal": 731973.0,
+      "characterMean": 1097.41,
+      "characterMedian": 928,
+      "characterP25": 629,
+      "characterP75": 1347,
+      "platforms": {
+        "爱发电": 385,
+        "知乎": 282
+      }
+    },
+    "2026": {
+      "articleCount": 391,
+      "activeMonthCount": 7,
+      "characterTotal": 460092.0,
+      "characterMean": 1176.71,
+      "characterMedian": 1009,
+      "characterP25": 693,
+      "characterP75": 1490,
+      "platforms": {
+        "爱发电": 140,
+        "知乎": 251
+      }
+    }
+  },
+  "lengthBands": {
+    "0": {
+      "articleCount": 2,
+      "sharePct": 0.05
+    },
+    "1-499": {
+      "articleCount": 953,
+      "sharePct": 23.53
+    },
+    "500-999": {
+      "articleCount": 1348,
+      "sharePct": 33.28
+    },
+    "1000-1999": {
+      "articleCount": 1225,
+      "sharePct": 30.25
+    },
+    "2000-3999": {
+      "articleCount": 448,
+      "sharePct": 11.06
+    },
+    "4000+": {
+      "articleCount": 74,
+      "sharePct": 1.83
+    }
+  },
+  "themeOverlapMethod": "Count of broad retrieval themes assigned by build_corpus_index.ps1; overlap is descriptive, not topic classification.",
+  "themeOverlap": {
+    "0": {
+      "articleCount": 176,
+      "sharePct": 4.35
+    },
+    "1": {
+      "articleCount": 306,
+      "sharePct": 7.56
+    },
+    "2": {
+      "articleCount": 427,
+      "sharePct": 10.54
+    },
+    "3": {
+      "articleCount": 533,
+      "sharePct": 13.16
+    },
+    "4": {
+      "articleCount": 587,
+      "sharePct": 14.49
+    },
+    "5": {
+      "articleCount": 564,
+      "sharePct": 13.93
+    },
+    "6": {
+      "articleCount": 506,
+      "sharePct": 12.49
+    },
+    "7": {
+      "articleCount": 442,
+      "sharePct": 10.91
+    },
+    "8": {
+      "articleCount": 283,
+      "sharePct": 6.99
+    },
+    "9": {
+      "articleCount": 179,
+      "sharePct": 4.42
+    },
+    "10": {
+      "articleCount": 47,
+      "sharePct": 1.16
+    }
+  },
+  "latePeriod": {
+    "period": "2024-2026-07-17",
+    "articleCount": 1860,
+    "ifdianArticleCount": 741,
+    "ifdianSharePct": 39.84
+  },
+  "emptyBodyCount": 2,
+  "emptyBodyIds": [
+    "e108515f-375c-53c9-8f6d-1ee2c16b275a",
+    "c5354fb0-7345-5864-8522-2c0cfdad3c2e"
+  ]
+}

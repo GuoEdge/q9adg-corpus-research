@@ -1,0 +1,18 @@
+param(
+    [string]$QueuePath = (Join-Path $PSScriptRoot '..\data\claim_review_queue.csv'),
+    [string]$CorpusPath = (Join-Path $PSScriptRoot '..\..\sooon-q9adg-articles.jsonl'),
+    [string]$EvidencePath = (Join-Path $PSScriptRoot '..\data\author_view_evidence.jsonl'),
+    [string]$CleanEvidencePath = (Join-Path $PSScriptRoot '..\data\author_view_evidence_clean.jsonl'),
+    [string]$QuoteValidationPath = (Join-Path $PSScriptRoot '..\data\source_quote_validation_all.csv'),
+    [string]$OutputPath = (Join-Path $PSScriptRoot '..\data\claim_support_audit_500.csv')
+)
+$ErrorActionPreference='Stop'
+function Norm([string]$s){if($null-eq$s){return''};return(($s-replace'[\s\p{P}\p{S}]','').ToLowerInvariant())}
+function Coverage([string]$field,[string]$raw){$f=Norm $field;$r=Norm $raw;if(!$f -or !$r){return 0};$grams=[Collections.Generic.HashSet[string]]::new();$step=[math]::Max(1,[int]($f.Length/200));for($i=0;$i-le$f.Length-4;$i+=$step){[void]$grams.Add($f.Substring($i,4))};if($grams.Count-eq0){return 0};$hit=0;foreach($g in $grams){if($r.Contains($g)){$hit++}};return [math]::Round(([double]$hit / [double]$grams.Count),4)}
+$raw=@{};foreach($line in [IO.File]::ReadLines([IO.Path]::GetFullPath($CorpusPath))){if($line){$o=$line|ConvertFrom-Json;$raw[$o.id]=$o}}
+$ev=@{};foreach($line in [IO.File]::ReadLines([IO.Path]::GetFullPath($EvidencePath))){if($line){$o=$line|ConvertFrom-Json;$ev[$o.id]=$o}}
+$clean=@{};foreach($line in [IO.File]::ReadLines([IO.Path]::GetFullPath($CleanEvidencePath))){if($line){$o=$line|ConvertFrom-Json;$clean[$o.id]=$o}}
+$quotes=@{};foreach($q in Import-Csv $QuoteValidationPath){if(!$quotes.ContainsKey($q.id)){$quotes[$q.id]=[Collections.Generic.List[string]]::new()};[void]$quotes[$q.id].Add($q.matchType)}
+$i=0;$rows=foreach($q in Import-Csv $QueuePath){$i++;$o=$ev[$q.id];$c=$clean[$q.id];$r=$raw[$q.id];$types=@($quotes[$q.id]);$hasExact=$types -contains'exact';$hasMissing=$types -contains'missing';$quoteStatus=if(!$r.text){'NO_RAW'}elseif($hasExact -and $hasMissing){'PARTIAL'}elseif($hasMissing){'MISSING'}elseif($hasExact){'EXACT'}elseif($types -contains'partial'){'PARTIAL'}elseif($types.Count){'MISSING'}else{'NO_QUOTE'};$tc=Coverage $o.thesis $r.text;$rc=Coverage $o.reasoning $r.text;$ac=Coverage $c.authorActionAndEthicalJudgments $r.text;$removed=([string]$o.thesis).Length+([string]$o.authorActionAndEthicalJudgments).Length+([string]$o.faithfulSummary).Length-(([string]$c.thesis).Length+([string]$c.authorActionAndEthicalJudgments).Length+([string]$c.faithfulSummary).Length);$risk=0;if(!$r.text){$risk+=100};if($quoteStatus-eq'MISSING'){$risk+=30}elseif($quoteStatus-eq'PARTIAL'){$risk+=5};$risk+=[math]::Round((1-$tc)*20+(1-$rc)*20+(1-$ac)*20);if($removed-gt0){$risk+=[math]::Min(20,[math]::Ceiling($removed/50))};[pscustomobject]@{queueIndex=$i;ordinal=$o.ordinal;id=$o.id;title=$o.title;rawLength=([string]$r.text).Length;thesisCoverage=$tc;reasoningCoverage=$rc;actionCoverage=$ac;removedExternalChars=$removed;quoteStatus=$quoteStatus;riskScore=$risk;reviewStatus='UNREVIEWED'}}
+$rows|Sort-Object @{Expression='riskScore';Descending=$true},queueIndex|Export-Csv ([IO.Path]::GetFullPath($OutputPath)) -NoTypeInformation -Encoding UTF8
+$stats=[ordered]@{rowCount=$rows.Count;noRaw=@($rows|?{$_.quoteStatus-eq'NO_RAW'}).Count;missingQuote=@($rows|?{$_.quoteStatus-eq'MISSING'}).Count;withRemovedExternalText=@($rows|?{$_.removedExternalChars-gt0}).Count;status=if($rows.Count-eq500){'PASS'}else{'REVIEW'}};$stats|ConvertTo-Json|Set-Content ([IO.Path]::ChangeExtension([IO.Path]::GetFullPath($OutputPath),'.stats.json')) -Encoding UTF8;$stats|ConvertTo-Json

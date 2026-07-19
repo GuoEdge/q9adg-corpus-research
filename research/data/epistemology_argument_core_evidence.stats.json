@@ -1,0 +1,26 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 851,
+  "epistemologyRouteCandidates": 523,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "epistemologyRouteEvidenceRows": 47,
+  "screenedCrossRouteSupplements": 1,
+  "crossRouteSupplementOrdinals": [
+    3752
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "共同世界、真理与知识边界": 6,
+    "定义、题面与概念边界": 6,
+    "观察、证据与验证": 6,
+    "逻辑、模型与推理": 6,
+    "语言、达意与相互理解": 6,
+    "质疑、批评与修复": 6,
+    "记录、研究与知识生产": 6,
+    "不确定性、预测与决策": 6
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "corpusArticles": 4050,
+  "evidenceArticles": 4050,
+  "candidateArticles": 2076,
+  "termCount": 145,
+  "categoryCount": 8,
+  "categoryArticleCounts": {
+    "亲子抚养与基本照护": 1335,
+    "父母权柄与成年退出": 210,
+    "赡养养老与代际支持": 220,
+    "扩展亲属与人情网络": 353,
+    "家庭资源与财产安排": 300,
+    "危机照料与功能替代": 31,
+    "家务合作与日常生活": 101,
+    "家族传承与共同体": 396
+  },
+  "missingEvidenceRows": 0,
+  "uniqueCandidateIds": 2076,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "rowCount": 4050,
+  "removedSentenceCount": 5794,
+  "exactReplacementCount": 2300,
+  "suggestionFileCount": 12,
+  "replacementFileCount": 30,
+  "restoredFieldCount": 0,
+  "restoredFieldKeys": [],
+  "thesisSubstitutionCount": 2,
+  "thesisSubstitutionKeys": [
+    "3610:faithfulSummary",
+    "3915:authorActionAndEthicalJudgments"
+  ],
+  "emptyCoreFieldArticles": 0,
+  "residualLeakCount": 0,
+  "residualLeakKeys": [],
+  "status": "PASS"
+}

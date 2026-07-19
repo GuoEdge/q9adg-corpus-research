@@ -1,0 +1,21 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 261,
+  "evidenceRows": 32,
+  "uniqueEvidenceIds": 32,
+  "uniqueArticleIds": 32,
+  "questionLayers": 8,
+  "layerCounts": {
+    "战略概念与战争认识": 4,
+    "军事组织与国家动员": 4,
+    "武器工程与系统适配": 4,
+    "威慑、威胁与核力量": 4,
+    "战争目标、胜负与投降": 4,
+    "平民、战争责任与侵略命名": 4,
+    "同盟、调停与大国边界": 4,
+    "民族主义、制裁、修和与条约": 4
+  },
+  "missingCoreFields": 0,
+  "quoteFailures": 0,
+  "status": "PASS"
+}

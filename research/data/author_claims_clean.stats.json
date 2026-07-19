@@ -1,0 +1,7 @@
+{
+  "outputPath": "D:\\岐伯论\\research\\data\\author_claims_clean.jsonl",
+  "articleCount": 4050,
+  "claimCount": 12150,
+  "expectedClaimCount": 12150,
+  "status": "PASS"
+}

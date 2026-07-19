@@ -1,0 +1,26 @@
+{
+  "corpusArticles": 4050,
+  "screenedCandidates": 1278,
+  "evidenceRows": 48,
+  "uniqueEvidenceIds": 48,
+  "uniqueArticleIds": 48,
+  "uniqueOrdinals": 48,
+  "screenedEvidenceRows": 47,
+  "directReviewSupplements": 1,
+  "supplementOrdinals": [
+    208
+  ],
+  "missingCoreFields": 0,
+  "exactQuoteFailures": 0,
+  "sectionCounts": {
+    "劳动、事业与职业意义": 6,
+    "求职、选择与职业发展": 6,
+    "产出、交付与专业能力": 6,
+    "协作、分工与功劳分配": 6,
+    "权柄、管理与责任结构": 6,
+    "沟通、关系与组织政治": 6,
+    "竞争、评价与制度秩序": 6,
+    "离职、失业与未来工作": 6
+  },
+  "status": "PASS"
+}
