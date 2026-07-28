@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-28T10:19:04.9950942+00:00",
+  "scriptVersion": "2.0.0",
+  "inputCorpusFile": "sooon-q9adg-articles.jsonl",
+  "inputCorpusSha256": "5C609F734DBD7AE27C96467C9D2AAFF17C12EF2EEA500B222A7314779ED9B06E",
+  "corpusArticleCount": 4050,
+  "coreEvidenceCount": 24,
+  "candidateCount": 16,
+  "uniqueCandidateIdCount": 16,
+  "uniqueCandidateLabelCount": 16,
+  "trajectoryCounts": [
+    {
+      "trajectory": "D01_事实定义与论辩",
+      "count": 2
+    },
+    {
+      "trajectory": "D02_能力学习与主体",
+      "count": 2
+    },
+    {
+      "trajectory": "D03_责任后果与授权",
+      "count": 2
+    },
+    {
+      "trajectory": "D04_自由边界与退出",
+      "count": 2
+    },
+    {
+      "trajectory": "D05_爱回应与不掠夺",
+      "count": 2
+    },
+    {
+      "trajectory": "D06_劳动财富与分配",
+      "count": 2
+    },
+    {
+      "trajectory": "D07_组织技术与公共能力",
+      "count": 2
+    },
+    {
+      "trajectory": "D08_自然法伦理与风险",
+      "count": 2
+    }
+  ],
+  "roleCounts": [
+    {
+      "role": "ALTERNATIVE",
+      "count": 8
+    },
+    {
+      "role": "CHALLENGE",
+      "count": 8
+    }
+  ],
+  "quoteFailureCount": 0,
+  "authorLexicalRoleFailureCount": 0,
+  "topLevelQuoteMatchCount": 0,
+  "questionFieldMatchCount": 0,
+  "missingCleanEvidenceCount": 0,
+  "coreEvidenceOverlapCount": 0,
+  "validationErrors": [],
+  "status": "PASS"
+}

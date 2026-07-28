@@ -74,7 +74,7 @@ pwsh -NoLogo -NoProfile -File .\research\scripts\validate_close_reading.ps1
 
 推荐先读 00、01，再对照阅读 02 与 07。前者用“实践伦理工程学”解释关系机制，后者从本体论、认识论、人类学、价值论和秩序论重建完整体系。两者是竞争性、互补性的研究解释，不被强行合并为作者自称的教义。
 
-截至2026-07-28，15号保留为历时解释主文；23号重构为方法与稳健性附录，集中报告平台控制、34词检索、24篇平衡配对、6篇替代案例和Lexical引述块排除。年度、2026截断、篇幅标准化和替代案例系统化仍明确列为未完成检验。20号核心概念词典的30项代表证据均重新核对，其中17项更换或扩充代表短引；代表性判断来自语义审读，机器验证只证明ID、标题和连续短引匹配。
+截至2026-07-28，15号保留为历时解释主文；23号重构为方法与稳健性附录，集中报告平台控制、34词检索、24篇平衡配对、16篇系统替代/挑战案例、Lexical顶层引述排除、2026截断、完整月份、年度等权、逐年剔除、字符密度和固定长度四分位标准化。构建完整性为 `PASS`；真实解释敏感性标记为 `REVIEW`：责任与自由在部分窗口、年度或篇幅口径下改变局部方向，不能写成已经证明思想转向或已排除题材与篇幅影响。20号核心概念词典的30项代表证据均重新核对，其中17项更换或扩充代表短引；代表性判断来自语义审读，机器验证只证明ID、标题和连续短引匹配。
 
 ## 数据与复现
 
@@ -113,12 +113,20 @@ Get-Content .\research\data\author_view_evidence.stats.json
 - `data/core_term_period_platform_counts.csv`：34个原词按时期与平台拆分后的文章覆盖率和出现次数
 - `data/core_term_quote_role_sensitivity.csv`：4,050篇Lexical结构排除顶层引述块后的34词时期×平台复算，共204个统计单元
 - `data/core_term_quote_role_sensitivity.stats.json`：复算覆盖、异常差值和最大篇级覆盖率变化；当前状态 `PASS`
+- `data/diachronic_zhihu_year_term_sensitivity.csv`：8词知乎逐年作者文本统计
+- `data/diachronic_zhihu_period_term_sensitivity.csv`：完整、排除2026及两种1—6月窗口的阶段统计
+- `data/diachronic_zhihu_leave_one_year_out_sensitivity.csv`：2018—2026逐年剔除的轨迹诊断
+- `data/diachronic_zhihu_equal_year_weight_sensitivity.csv`：阶段内年度等权结果
+- `data/diachronic_zhihu_length_standardized_sensitivity.csv`：固定全期长度四分位直接标准化结果
+- `data/diachronic_zhihu_sensitivity.stats.json`：输入哈希、窗口规则、分母、零长度文章及完整性/解释诊断；`status=PASS`、`interpretiveStatus=REVIEW`
+- `data/diachronic_alternative_case_pool.csv`：8条轨迹各1篇替代、1篇挑战，共16篇
+- `data/diachronic_alternative_case_pool.stats.json`：候选编号、角色配对、Lexical节点、问题字段、核心重合与短引审计；当前状态 `PASS`
 - `data/core_proposition_genealogy.csv`：39条核心命题的前提、推理动作、行动结论、条件、反驳对象、支持/对照ID和历时位置
 - `data/core_proposition_genealogy.stats.json`：39条命题的ID、元数据和代表短引逐字校验结果
 - `data/core_evidence_registry.csv`：20套专题/历时核心证据统计汇总，当前20/20状态为 `PASS`
 - `data/paper_inventory.csv`：34篇编号研究文本的字符量、标题层级和唯一UUID引用数清单
 - `data/paper_named_source_coverage_audit.csv`：论文中可唯一识别的篇名与来源入口覆盖审计
-- `data/paper_named_source_coverage_audit.stats.json`：1,219组篇名提及，歧义0、缺失入口0，状态 `PASS`
+- `data/paper_named_source_coverage_audit.stats.json`：1,233组篇名提及，歧义0、缺失入口0，状态 `PASS`
 - `data/medical_care_candidates.csv`：由28个临床相关原词召回的554篇医疗、疾病与照料候选，含分类、相关度和清洗作者视角字段
 - `data/medical_care_candidates.stats.json`：554篇候选、6类分层、ID唯一性和证据字段完整性校验
 - `data/medical_care_core_evidence.csv`：25篇医疗核心证据，含命题、证据性质、边界、原文连续短引和元数据
@@ -223,7 +231,7 @@ Get-Content .\research\data\author_view_evidence.stats.json
 - `review/quote-manual-decisions.csv`：对剩余71条的逐篇原文人工决定；14条拆为54个逐字定位原句段，57条标为 `REJECT_DIRECT_QUOTE`
 - `data/verified_source_quotes.jsonl`：旧版归一化定位层，仅作历史记录；严格逐字核验以 `source_quote_validation_all.csv` 为准
 - `data/verified_source_quotes.stats.json`：旧版引文层统计，不再作为严格逐字结论
-- `data/paper_citation_audit.stats.json`：34篇编号研究文本的1,237组论文—文章引用审计，822个唯一ID全部存在于原始语料；URL-only引用为0
+- `data/paper_citation_audit.stats.json`：34篇编号研究文本的1,250组论文—文章引用审计，822个唯一ID全部存在于原始语料；URL-only引用为0
 - `review/claim-review-results.csv`：500篇高风险命题核验权威总表，A、B、C三批严格结果均已合并，500个唯一ordinal
 - 500篇严格结果合计：主旨483 `PASS`/17 `PARTIAL`，推理498 `PASS`/2 `PARTIAL`，行动152 `PASS`/348 `PARTIAL`，引文179 `EXACT`/291 `PARTIAL`/30 `NONE`，研究者侧泄漏433 `PRESENT`/67 `NONE`
 - `review/strict-quote-batches-100/strict-quote-review-manifest.csv`：第一阶段896篇、1,110条严格短引复审记录，9批已全部审计并应用
@@ -233,6 +241,8 @@ Get-Content .\research\data\author_view_evidence.stats.json
 - `scripts/validate_all_paper_direct_quotes.ps1`：验证34篇论文的中文直接短引均能在所引原文中按Ordinal命中
 - `scripts/validate_paper_quote_roles.ps1`：解析Lexical结构，确保论文直接短引命中作者正文，而不是仅命中提问或引述块
 - `scripts/build_core_term_quote_role_sensitivity.ps1`：对4,050篇Lexical结构排除顶层引述块并重算34词时期×平台覆盖
+- `scripts/build_diachronic_zhihu_sensitivity.ps1`：重建8词知乎年度、窗口、逐年剔除、等年权重和固定长度四分位敏感性
+- `scripts/build_diachronic_alternative_case_pool.ps1`：重建8条轨迹的16篇替代/挑战案例，并验证逐轨迹角色、Lexical节点和短引
 - `scripts/promote_paper_url_only_citations.ps1`：为能映射到原始语料的论文URL引用补入稳定UUID
 - `scripts/promote_paper_named_source_citations.ps1`：为论文中可唯一映射的篇名补入稳定ID、日期和原始URL入口
 - `scripts/validate_paper_named_source_coverage.ps1`：审计篇名提及是否均有可追踪来源入口
@@ -309,4 +319,4 @@ pwsh -NoLogo -NoProfile -File .\research\scripts\build_corpus_index.ps1
 
 ## 当前定稿状态
 
-医疗、司法、战争、艺术、媒体、死亡、教育、认识论、家庭、亲密关系、职场、财富、宗教、心理、技术、性别、民族、生态和人工智能专题均已建立候选层、核心证据层和独立成文层。500篇高风险命题核验、第一阶段896篇短引复审和第二阶段1,027篇残余复审均已完成；clean层11,978条登记短引全部按 `StringComparison.Ordinal` 命中。20套专题核心证据共839条，逐字定位失败0。15号与23号已经分为历时解释主文和方法附录；20号词典完成17项代表证据语义复审；1,219组可唯一识别篇名均有来源入口；35篇知乎稿已同步为 `READY`。年度、2026截断、篇幅标准化和替代案例系统化仍保留为23号明确限制。宽口径召回始终只用于研究队列和跨文抽样，不直接当作作者立场或主题占比；全套研究只重建岐伯的判断、推理、条件和建议，不加入AI自身的伦理、政治、医学、科技或法律裁决。
+医疗、司法、战争、艺术、媒体、死亡、教育、认识论、家庭、亲密关系、职场、财富、宗教、心理、技术、性别、民族、生态和人工智能专题均已建立候选层、核心证据层和独立成文层。500篇高风险命题核验、第一阶段896篇短引复审和第二阶段1,027篇残余复审均已完成；clean层11,978条登记短引全部按 `StringComparison.Ordinal` 命中。20套专题核心证据共839条，逐字定位失败0。15号与23号已经分为历时解释主文和方法附录；后者已完成窗口、年度、篇幅和16篇替代池敏感性，并如实保留责任与自由的局部不稳定。20号词典完成17项代表证据语义复审；1,233组可唯一识别篇名均有来源入口；35篇知乎稿已经由当前论文重建并校验为 `READY`。宽口径召回始终只用于研究队列和跨文抽样，不直接当作作者立场或主题占比；全套研究只重建岐伯的判断、推理、条件和建议，不加入AI自身的伦理、政治、医学、科技或法律裁决。
