@@ -76,6 +76,8 @@ pwsh -NoLogo -NoProfile -File .\research\scripts\validate_close_reading.ps1
 
 截至2026-07-28，15号保留为历时解释主文；23号重构为方法与稳健性附录，集中报告平台控制、34词检索、24篇平衡配对、16篇系统替代/挑战案例、Lexical顶层引述排除、2026截断、完整月份、年度等权、逐年剔除、字符密度和固定长度四分位标准化。构建完整性为 `PASS`；真实解释敏感性标记为 `REVIEW`：责任与自由在部分窗口、年度或篇幅口径下改变局部方向，不能写成已经证明思想转向或已排除题材与篇幅影响。20号核心概念词典的30项代表证据均重新核对，其中17项更换或扩充代表短引；代表性判断来自语义审读，机器验证只证明ID、标题和连续短引匹配。
 
+专题论文已完成理论转化审校。03—09号和25号在已有证据上新增差异化的变量、转换机制和失灵条件；10—16号及26—33号经逐篇检查，已经具有跨层命题链、问题模型、条件矩阵或反馈循环，不再机械叠加同义框架。审计口径与逐篇处理见 `review/theoretical-transformation-audit.md`。
+
 ## 数据与复现
 
 ### 作者视角证据层
@@ -211,6 +213,7 @@ Get-Content .\research\data\author_view_evidence.stats.json
 - `review/claim-review-results.csv`：500篇高风险命题核验权威总表，500个唯一ordinal；主旨483 `PASS`/17 `PARTIAL`，推理498 `PASS`/2 `PARTIAL`，行动152 `PASS`/348 `PARTIAL`，引文179 `EXACT`/291 `PARTIAL`/30 `NONE`，研究者侧泄漏433 `PRESENT`/67 `NONE`
 - `review/claim-review-next40-clean-deletion-suggestions.csv`：早期40篇扩充批次的历史中间文件；最终状态以500篇权威总表为准
 - `review/paper-author-centering-audit.md`：早期论文纯作者视角审校规则、8篇改写范围和当前结果
+- `review/theoretical-transformation-audit.md`：专题论文的证据锚定、变量、转换机制、条件、张力和跨域接口审计；记录本轮8篇直接修订及其余专题不机械增补的理由
 - `review/crime-justice-evidence-review.md`：第二模型独立审读的29篇司法证据、43条连续短引及八层内部连接
 - `review/media-public-opinion-evidence-review.md`：媒体专题32篇核心原文、八组张力和六环跨文综合的命题支持复核，已修订2处过度综合
 - `review/education-learning-evidence-review.md`：教育专题初选逐篇复核、体系结构审查、错层调整、筛选漏召回处理和最终48篇主线程裁决记录
