@@ -53,7 +53,7 @@ pwsh -NoLogo -NoProfile -File .\research\scripts\validate_close_reading.ps1
 15. [心理主体修复与情绪劳动](papers/14_心理主体修复与情绪劳动.md)
 16. [从公共论辩到生活伦理：历时演变研究](papers/15_从公共论辩到生活伦理_历时演变研究.md)
 17. [从平权到不被物化：性别、身体、性、同意与照料](papers/16_性别身体性与同意.md)
-18. [全量概念网络与命题分布](papers/17_全量概念网络与命题分布.md)
+18. [结构化精读概念网络与命题分布](papers/17_全量概念网络与命题分布.md)
 19. [责任、自由与成本：跨域结构](papers/18_责任自由成本的跨域结构.md)
 20. [内部张力与条件差异](papers/19_内部张力与条件差异.md)
 21. [核心概念词典与语义结构](papers/20_核心概念词典与语义结构.md)
@@ -219,14 +219,17 @@ Get-Content .\research\data\author_view_evidence.stats.json
 - `review/quote-manual-decisions.csv`：对剩余71条的逐篇原文人工决定；14条拆为54个逐字定位原句段，57条标为 `REJECT_DIRECT_QUOTE`
 - `data/verified_source_quotes.jsonl`：旧版归一化定位层，仅作历史记录；严格逐字核验以 `source_quote_validation_all.csv` 为准
 - `data/verified_source_quotes.stats.json`：旧版引文层统计，不再作为严格逐字结论
-- `data/paper_citation_audit.stats.json`：34篇编号研究文本的1,143组论文—文章引用审计，815个唯一ID全部存在于原始语料
+- `data/paper_citation_audit.stats.json`：34篇编号研究文本的1,147组论文—文章引用审计，819个唯一ID全部存在于原始语料；URL-only引用为0
 - `review/claim-review-results.csv`：500篇高风险命题核验权威总表，A、B、C三批严格结果均已合并，500个唯一ordinal
 - 500篇严格结果合计：主旨483 `PASS`/17 `PARTIAL`，推理498 `PASS`/2 `PARTIAL`，行动152 `PASS`/348 `PARTIAL`，引文179 `EXACT`/291 `PARTIAL`/30 `NONE`，研究者侧泄漏433 `PRESENT`/67 `NONE`
 - `review/strict-quote-batches-100/strict-quote-review-manifest.csv`：第一阶段896篇、1,110条严格短引复审记录，9批已全部审计并应用
 - `review/strict-quote-residual-batches-100/strict-quote-review-manifest.csv`：第二阶段1,027篇、1,534条残余候选，10个100篇批次加27篇尾批，全部审计并应用
 - `data/strict_quote_residual_batch_summary.stats.json`：第二阶段1,485条精确替换、9条改写、40条删除，11批全部批准，状态 `PASS`
 - `review/strict-quote-auto-audit-80-decisions.csv`：80条高风险自动映射的独立审计；71接受、8编辑、1拒绝，拦截1条主语反转
-- `scripts/validate_paper_direct_quotes.ps1`：只保留能在论文所引原文中按Ordinal命中的中文直接短引
+- `scripts/validate_all_paper_direct_quotes.ps1`：验证34篇论文的中文直接短引均能在所引原文中按Ordinal命中
+- `scripts/validate_paper_quote_roles.ps1`：解析Lexical结构，确保论文直接短引命中作者正文，而不是仅命中提问或引述块
+- `scripts/promote_paper_url_only_citations.ps1`：为能映射到原始语料的论文URL引用补入稳定UUID
+- `scripts/validate_paper_citations.ps1`：验证全部论文引用ID存在，并将任何URL-only引用列为非PASS
 - `data/corpus_stats.json`：总体统计、年度/月度分布、概念词篇级与出现次数
 - `data/theme_examples.json`：各召回主题的前 25 条候选例文，用于人工抽样，不代表典型性排序
 - `data/07_思想体系证据.csv`：长篇总论使用的 34 条核心证据，含短引、用途和证据性质

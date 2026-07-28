@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-20T05:39:50.8563109+08:00",
+  "generatedAt": "2026-07-28T16:14:33.7211171+08:00",
   "paperCount": 34,
-  "citationOccurrences": 1143,
-  "uniqueCitedIds": 815,
-  "uuidCitedOccurrences": 1094,
-  "urlOnlyCitationOccurrences": 49,
+  "citationOccurrences": 1147,
+  "uniqueCitedIds": 819,
+  "uuidCitedOccurrences": 1147,
+  "urlOnlyCitationOccurrences": 0,
   "missingCitedIds": 0,
   "status": "PASS"
 }

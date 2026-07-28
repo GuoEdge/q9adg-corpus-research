@@ -77,7 +77,11 @@ $stats = [ordered]@{
     uuidCitedOccurrences = @($records | Where-Object citedByUuid).Count
     urlOnlyCitationOccurrences = @($records | Where-Object { -not $_.citedByUuid -and $_.citedByUrl }).Count
     missingCitedIds = $missing.Count
-    status = if ($papers.Count -eq 34 -and $missing.Count -eq 0) { 'PASS' } else { 'REVIEW' }
+    status = if (
+        $papers.Count -eq 34 -and
+        $missing.Count -eq 0 -and
+        @($records | Where-Object { -not $_.citedByUuid -and $_.citedByUrl }).Count -eq 0
+    ) { 'PASS' } else { 'REVIEW' }
 }
 $stats | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $StatsPath -Encoding utf8
 $stats | ConvertTo-Json -Depth 4

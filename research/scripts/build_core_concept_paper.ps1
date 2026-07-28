@@ -58,6 +58,7 @@ foreach ($group in $groups.GetEnumerator()) {
     foreach ($term in $group.Value) {
         $row = $byTerm[$term]
         $source = $raw[[string]$row.representative_id]
+        $sourceUrl = ([string]$source.url).TrimEnd(')')
         [void]$builder.AppendLine("### $index. $term")
         [void]$builder.AppendLine()
         [void]$builder.AppendLine("**文本内用法。** $($row.author_usage)")
@@ -66,7 +67,7 @@ foreach ($group in $groups.GetEnumerator()) {
         [void]$builder.AppendLine()
         [void]$builder.AppendLine("**边界与条件。** 边界或相反方向为：$($row.boundary_or_opposite)。$($row.conditions_exceptions)")
         [void]$builder.AppendLine()
-        [void]$builder.AppendLine("**代表证据。** [$($row.representative_title)]($($source.url))，ID `$($row.representative_id)`：")
+        [void]$builder.AppendLine(('**代表证据。** [{0}]({1})，ID `{2}`：' -f $row.representative_title,$sourceUrl,$row.representative_id))
         [void]$builder.AppendLine()
         [void]$builder.AppendLine("> $($row.source_quote)")
         [void]$builder.AppendLine()
@@ -100,6 +101,12 @@ foreach ($group in $groups.GetEnumerator()) {
 [void]$builder.AppendLine('三十个概念共同呈现一种反复的文本动作：先确定事实和角色，再识别选择、能力、成本与责任；以爱、尊重和边界约束关系占用；以授权、礼仪、合作和信用组织多轮互动；最终由经验、记录、技术路径和自然后果检验行动。本文只把这种邻接关系重建为概念地图，不将研究者分组写成作者自称的学说。')
 
 $content = $builder.ToString().TrimEnd() + "`r`n"
+if ($content.Contains('$(@{',[StringComparison]::Ordinal)) {
+    throw 'Generated paper contains an unevaluated PowerShell object expression.'
+}
+if ([regex]::IsMatch($content,'\]\(https?://[^\s]+\)\)')) {
+    throw 'Generated paper contains a malformed Markdown link with an extra closing parenthesis.'
+}
 [IO.File]::WriteAllText([IO.Path]::GetFullPath($OutputPath),$content,[Text.UTF8Encoding]::new($false))
 [ordered]@{
     outputPath = [IO.Path]::GetFullPath($OutputPath)
@@ -109,4 +116,3 @@ $content = $builder.ToString().TrimEnd() + "`r`n"
     characters = $content.Length
     status = 'PASS'
 } | ConvertTo-Json
-
