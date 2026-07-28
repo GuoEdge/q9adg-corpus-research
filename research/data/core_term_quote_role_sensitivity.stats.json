@@ -1,0 +1,14 @@
+{
+  "articleCount": 4050,
+  "termCount": 34,
+  "periodPlatformGroupCount": 6,
+  "outputRowCount": 204,
+  "quoteOnlyArticleTermCount": 136,
+  "maximumRateDelta": 0.018893,
+  "maximumRateDeltaPeriod": "2024-2026",
+  "maximumRateDeltaPlatform": "Afdian",
+  "maximumRateDeltaTerm": "学习",
+  "negativeDeltaCount": 0,
+  "authorOccurrenceGreaterThanFullCount": 0,
+  "status": "PASS"
+}
